@@ -1,0 +1,20 @@
+{
+  "calendar_name": "Gaurav's Dates",
+  "events": {
+    "Republic Day": ["Republic Day"],
+    "Independence Day": ["Independence Day"],
+    "Gandhi Jayanti": ["Gandhi Jayanti"],
+    "Holi": ["Holi"],
+    "Good Friday": ["Good Friday"],
+    "Janmashtami": ["Krishna Janmashtami", "Janmashtami"],
+    "Dussehra": ["Dussehra"],
+    "Diwali": ["Diwali", "Lakshmi Puja"],
+    "Guru Nanak Jayanti": ["Guru Nanak Jayanti"],
+    "Christmas": ["Christmas", "Merry Christmas"],
+    "Raksha Bandhan": ["Raksha Bandhan"],
+    "Basant Panchami": ["Vasant Panchami", "Basant Panchami"],
+    "Baisakhi": ["Vaisakhi", "Baisakhi"],
+    "Makar Sankranti": ["Makara Sankranti", "Makar Sankranti"],
+    "Maha Shivratri": ["Maha Shivaratri", "Maha Shivratri"]
+  }
+}
