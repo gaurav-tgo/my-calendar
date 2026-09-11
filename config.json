@@ -4,54 +4,20 @@
   "years_ahead": 3,
   "source": "https://www.drikpanchang.com/calendars/indian/indiancalendar.html?year={year}",
   "events": {
-    "Republic Day": [
-      "Republic Day"
-    ],
-    "Independence Day": [
-      "Independence Day"
-    ],
-    "Gandhi Jayanti": [
-      "Gandhi Jayanti"
-    ],
-    "Holi": [
-      "Holi"
-    ],
-    "Good Friday": [
-      "Good Friday"
-    ],
-    "Janmashtami": [
-      "Krishna Janmashtami"
-    ],
-    "Dussehra": [
-      "Dussehra"
-    ],
-    "Diwali": [
-      "Diwali"
-    ],
-    "Guru Nanak Jayanti": [
-      "Guru Nanak Jayanti"
-    ],
-    "Christmas": [
-      "Merry Christmas",
-      "Christmas"
-    ],
-    "Raksha Bandhan": [
-      "Raksha Bandhan"
-    ],
-    "Basant Panchami": [
-      "Vasant Panchami",
-      "Basant Panchami"
-    ],
-    "Baisakhi": [
-      "Baisakhi"
-    ],
-    "Makar Sankranti": [
-      "Makara Sankranti",
-      "Makar Sankranti"
-    ],
-    "Maha Shivratri": [
-      "Maha Shivaratri",
-      "Maha Shivratri"
-    ]
+    "Republic Day": ["Republic Day"],
+    "Independence Day": ["Independence Day"],
+    "Gandhi Jayanti": ["Gandhi Jayanti"],
+    "Holi": ["Holi"],
+    "Good Friday": ["Good Friday"],
+    "Janmashtami": ["Krishna Janmashtami"],
+    "Dussehra": ["Dussehra"],
+    "Diwali": ["Diwali"],
+    "Guru Nanak Jayanti": ["Guru Nanak Jayanti"],
+    "Christmas": ["Merry Christmas", "Christmas"],
+    "Raksha Bandhan": ["Raksha Bandhan"],
+    "Basant Panchami": ["Vasant Panchami", "Basant Panchami"],
+    "Baisakhi": ["Baisakhi"],
+    "Makar Sankranti": ["Makara Sankranti", "Makar Sankranti"],
+    "Maha Shivratri": ["Maha Shivaratri", "Maha Shivratri"]
   }
 }

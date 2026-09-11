@@ -1,31 +1,15 @@
 # Gaurav's Curated Dates
 
-A deliberately small, read-only calendar feed for dates worth being aware of.
+A deliberately small, read-only calendar feed containing only the dates selected in `config.json`.
 
-## Included
+## How it works
 
-- Republic Day
-- Independence Day
-- Gandhi Jayanti
-- Holi
-- Good Friday
-- Janmashtami
-- Dussehra
-- Diwali
-- Guru Nanak Jayanti
-- Christmas
-- Raksha Bandhan
-- Basant Panchami
-- Baisakhi
-- Makar Sankranti
-- Maha Shivratri
+GitHub Actions generates `calendar.ics` from the selected event names in Drik Panchang's annual Indian calendar pages. Event matching is exact, so `Holi` cannot match `Holika Dahan` or `Chhoti Holi`.
 
-## Source and safety checks
+The workflow refuses to publish an incomplete calendar and validates that there are exactly the configured event categories for each generated year.
 
-The generator reads the annual Indian calendar from Drik Panchang and uses **exact event-name matching**. In particular, `Holi` cannot match `Holika Dahan`.
+## Current selections
 
-The workflow refuses to publish if any selected event is missing, then validates that excluded Holi-related events have not slipped into the feed.
+Republic Day, Independence Day, Gandhi Jayanti, Holi, Good Friday, Janmashtami, Dussehra, Diwali, Guru Nanak Jayanti, Christmas, Raksha Bandhan, Basant Panchami, Baisakhi, Makar Sankranti, Maha Shivratri.
 
-GitHub Actions regenerates the feed monthly and can also be run manually.
-
-The resulting `calendar.ics` is intended to be published through GitHub Pages and subscribed to from Apple Calendar.
+To change the calendar, edit `config.json` and run the workflow manually. Apple Calendar remains subscribed to the same feed URL.
